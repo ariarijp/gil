@@ -4,7 +4,9 @@ Formatting Git log output as [JSON Lines](http://jsonlines.org/).
 
 ## Installation
 
-TBW
+```bash
+$ go get -u github.com/ariarijp/gil
+```
 
 ## Usage
 
