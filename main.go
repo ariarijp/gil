@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	conf := gitlog.Config{}
+	conf := gitlog.Config{Path: "."}
 	if len(os.Args) >= 2 {
 		conf.Path = os.Args[1]
 	}
